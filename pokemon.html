@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <h1>Pokemon</h1>
+
+    <section id="select-character">
+      <h2>Elige tu pokemon:</h2>
+
+      <label for="charmander">Charmander</label>
+      <input type="radio" name="charmander" id="charmander" />
+
+      <label for="squirtle">Squirtle</label>
+      <input type="radio" name="squirtle" id="squirtle" />
+
+      <label for="bulbasur">Bulbasur</label>
+      <input type="radio" name="bulbasur" id="bulbasur" />
+
+      <button id="btn-pokemons">Seleccionar</button>
+    </section>
+    <section id="select-ataque">
+      <h2>Elige tu ataque:</h2>
+
+      <p>Tu pokemon tiene <span>3</span> vidas</p>
+      <p>El pokemon de tu adversario tiene <span>3 </span> vidas</p>
+
+      <p>
+        <button id="btn-fire">Fuego 🔥</button>
+        <button id="btn-water">Agua 💧</button>
+        <button id="btn-leaf">Planta 🌱</button>
+      </p>
+    </section>
+
+    <section id="mensajes">
+      <p>Tu mascota ataco con FUEGO, el adversario ataco con TIERRA-GANASTE</p>
+    </section>
+
+    <section id="reiniciar">
+      <button>Reiniciar</button>
+    </section>
+
+    <script src="./js/pokemon.js"></script>
+  </body>
+</html>
